@@ -1,0 +1,109 @@
+/* General */
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #d3d0d08c;
+}
+
+
+/* Cabeza */
+header {
+    background-color: #364552;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+/* Cuerpo pt.1 */
+#contenedor {
+    width: 400px;
+    margin: 0 auto;   
+}
+section article {
+    transition: box-shadow 0.45s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.7rem;
+    padding: 0.05rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 2rem rgba(43, 230, 255, 0.705);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+
+/* cabeza pt.2 */
+
+
+
+
+/* el pie de pagina, asi que no lo toques*/
+footer {
+    background-color: #222;
+    padding: 32px 0px 32px 32px;
+    color: white;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
+
+.go {
+    float: right;
+    margin: 7px 0px 0px 0px;
+}
+
+.go a {
+    padding: 0px 3px 0px 3px;
+}
+
+footer p {
+    text-align: end;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 90px 0px 0px 0px;
+}
+
+#tutoriales {
+    width: 280px;
+    height: 100px;
+    padding: 0px 5px 5px 5px;
+}
+
+#tutoriales h3 {
+    margin: 5px 5px 5px 5px;
+}
+
+#tuto_1 {
+    float: left;
+    margin: 5px 5px 5px 25px;
+    padding: 0px 0px 0px 0px;
+}
+
+#tuto_2 {
+    float: right;
+    margin: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
+}
